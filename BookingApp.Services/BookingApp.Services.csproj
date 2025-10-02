@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BookingApp.Dal\BookingApp.Dal.csproj" />
+      <ProjectReference Include="..\BookingApp.domain\BookingApp.domain.csproj" />
+    </ItemGroup>
+
+</Project>
