@@ -47,8 +47,8 @@ Follow these instructions to set up and run the application locally.
 
 ### Prerequisites
 
-  * **.NET SDK** (7 or 8 recommended)
-  * **Database** (e.g., SQL Server, PostgreSQL, or SQLite)
+  * **.NET SDK** (8)
+  * **Database** (SQL Server)
 
 ### Installation
 
@@ -87,7 +87,7 @@ Follow these instructions to set up and run the application locally.
     }
     ```
 
-4.  **Apply Migrations (if using Entity Framework Core)**
+4.  **Apply Migrations**
 
     Ensure your database server is running, then run the commands below. The `-p` flag specifies the project containing the migrations (`BookingApp.Dal`), and the `-s` flag specifies the startup project (`BookingApp.Api`) to access configuration.
 
